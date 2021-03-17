@@ -1,0 +1,43 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.body{
+    background-image: url(/src/assets/images/comicbg.png);
+    background-size: cover;
+}
+.cart-item {
+    font-size: small;
+}
+
+.filters{
+    font-size: small;
+}
+
+.card { 
+    border: 5px solid black;
+}
+
+
+.list-group-item:first-child{
+    border-top-left-radius: .0rem;
+    border-top-right-radius: .0rem;
+
+}
+
+.list-group-item:last-child{
+    border-bottom-left-radius: .0rem;
+    border-bottom-right-radius: .0rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+      font-family: 'Open Sans', sans-serif;
+  }
+  p {
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+  }

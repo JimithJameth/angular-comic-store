@@ -1,5 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
+
 .body{
     background-image: url(/src/assets/images/comicbg.png);
     background-size: cover;
@@ -8,12 +9,16 @@
     font-size: small;
 }
 
+ .btn{
+    border-radius: 0;
+}
+
 .filters{
     font-size: small;
 }
 
 .card { 
-    border: 5px solid black;
+    border: 2px solid black;
 }
 
 
@@ -29,15 +34,23 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bangers';
     min-height: 75rem;
     padding-top: 4.5rem;
   }
   
   h1,h2,h3,h4,h5,h6 {
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Bangers';
   }
   p {
       font-size: 18px;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Montserrat';
+  }
+
+  btn btn-primary{
+      color: coral;
+  }
+
+  .comic-btn{
+      font-size: small;
   }

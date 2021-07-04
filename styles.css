@@ -5,6 +5,9 @@
     background-image: url(/src/assets/images/comicbg.png);
     background-size: cover;
 }
+.bg-body{
+    background-image: url() 
+}
 .cart-item {
     font-size: small;
 }

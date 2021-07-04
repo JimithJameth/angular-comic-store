@@ -1,15 +1,18 @@
 
    
             <div class="card mb-4 shadow-sm">
-            <img class="bd-placeholder-img card-img-top p-2" width="100%" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/The_Vision_and_the_Scarlet_Witch.jpg/250px-The_Vision_and_the_Scarlet_Witch.jpg">
+            <img class="bd-placeholder-img card-img-top p-2" width="400px" [src]="productItem.imageUrl">
+            <strong >{{ productItem.price| currency: 'GBP'}}</strong>
         
                 
                 <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <p class="card-text">{{ productItem.description}}</p>
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-primary comic-btn">Add to Cart</button>
                             <button type="button" class="btn btn-sm btn-outline-secondary comic-btn">View Details</button>
                         </div>
+
                     </div>
                 </div>
 

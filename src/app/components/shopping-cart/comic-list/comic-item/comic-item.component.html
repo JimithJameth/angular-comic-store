@@ -2,7 +2,7 @@
    
             <div class="card mb-4 shadow-sm">
             <img class="bd-placeholder-img card-img-top p-2" width="400px" [src]="productItem.imageUrl">
-            <strong >{{ productItem.price| currency: 'GBP'}}</strong>
+            <div class="card-title pricing-card-title">{{ productItem.price| currency: 'GBP'}}</div>
         
                 
                 <div class="card-body">

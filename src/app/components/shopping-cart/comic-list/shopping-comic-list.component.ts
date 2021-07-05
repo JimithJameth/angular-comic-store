@@ -13,7 +13,9 @@ export class ShoppingComicListComponent implements OnInit {
   constructor(private ProductService: ProductService) { }
 
   ngOnInit() {
-  this.productList = this.ProductService.getProducts()
+  this.ProductService.getProducts().subscribe((products) => {
+   this.productList = products;
+  })
   }
 
 }

@@ -1,0 +1,66 @@
+{
+   "comics":[
+    {
+      "id":1,
+      "name":"Silver Surfer",
+      "description": "As the silver surfer patrols the skies once more he defends earth from the Dawn Of Doomsday man! ",
+      "price": 145,
+      "imageUrl":"http://2.bp.blogspot.com/-ZVXCM2mxFzc/TtYK7SDlspI/AAAAAAAAB54/jahr7GZ0Xs4/s1600/SS13.jpg"
+    },
+
+    {
+      "id":2,
+      "name":"Dr Strange",
+      "description": "",
+      "price": 200,
+      "imageUrl":"https://13thdimension.com/wp-content/uploads/2018/04/Paul-Smith.jpg"
+    },
+
+    {
+      "id":3,
+      "name":"Iron Man",
+      "description": "",
+      "price": 300,
+      "imageUrl":"https://1.bp.blogspot.com/-cDAy8dBr57s/XoInBDRDdxI/AAAAAAAAbwE/Vhb9dOjUrI40cNTj83J8ALSB-1mtwkBkwCLcBGAsYHQ/s1600/Iron_Man_Vol_1_150%255B1%255D.jpg"
+    },
+
+    {
+      "id":4,
+      "name":"Thor",
+      "description": "",
+      "price": 145,
+      "imageUrl":"https://media.keycollectorcomics.com/media/thor_168.jpeg"
+    },
+    {
+      "id":5,
+      "name":"Deadpool",
+      "description": "",
+      "price": 145,
+      "imageUrl":"https://i.pinimg.com/236x/6d/a9/9e/6da99edc27bdce5337fb650d48371bbe.jpg"
+    },
+    {
+      "id":6,
+      "name":"Guardians Of The Galaxy",
+      "description": "",
+      "price": 50,
+      "imageUrl":"https://i.annihil.us/u/prod/marvel/i/mg/3/80/594c3b102589d/portrait_uncanny.jpg"
+    }
+   ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
